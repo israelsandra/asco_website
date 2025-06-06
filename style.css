@@ -54,9 +54,11 @@ header .navBox .topHead{
     text-align: end;
 }
 header .navBox nav{
-    margin: 15px 0 0 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    gap: 3rem;
+    justify-content: space-between;
 }
 header .navBox nav a{
     display: block;
@@ -251,6 +253,7 @@ mission ends
 }
 .serviceBox{
     display: flex;
+    justify-content: space-between;
     gap: 2rem;
     padding: 2rem;
 }
